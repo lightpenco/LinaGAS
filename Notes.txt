@@ -1,0 +1,41 @@
+Monday
+setup base afnetworking 		ok
+signup api (create user)		ok
+post session(login)			ok
+get session(refresh session)	ok
+put session(logout)			ok
+
+Map Google register api key	ok
+display map 				ok
+add current location button	ok
+
+Tuesday
+set sidemenu	ok
+	profile	ok LOAD PROFILE DETAILS
+		Firstname 
+		lastname
+		email
+		password
+		phone#
+	settings	ok
+		language
+		delete locations
+	share	ok
+	about	ok
+		about	ok
+			version	ok
+		license and agreement	ok
+		privacy policy	ok
+	logout	ok
+
+wednesday
+add button for change language in login page
+add order # of tanks
+set current location
+set home location
+forgot password
+update launch image
+localization
+update location interval
+get suppliers locations
+display on the map with pins

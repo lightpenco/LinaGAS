@@ -1,0 +1,16 @@
+target ‘Linagas’ do
+use_frameworks!
+
+pod 'AFNetworking', '~> 3.0'
+pod ‘SWRevealViewController’
+pod 'JVFloatLabeledTextField'
+pod 'UITextField+Shake'
+pod ‘UzysAnimatedGifPullToRefresh’
+pod 'IQDropDownTextField'
+pod 'GoogleMaps'
+pod 'SSKeychain'
+pod ‘MBProgressHUD’
+pod 'SCLAlertView-Objective-C'
+pod 'HCSStarRatingView', '~> 1.4.5'
+
+end

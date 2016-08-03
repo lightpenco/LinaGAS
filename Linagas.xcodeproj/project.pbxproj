@@ -1,0 +1,1072 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C39DD5A1D4C9D4700E036D9 /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39DD591D4C9D4700E036D9 /* Name.m */; };
+		2C39DD5B1D4C9D4700E036D9 /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39DD591D4C9D4700E036D9 /* Name.m */; };
+		2C39DD5F1D4CEF8700E036D9 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39DD5E1D4CEF8700E036D9 /* Contact.m */; };
+		2C39DD601D4CEF8700E036D9 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39DD5E1D4CEF8700E036D9 /* Contact.m */; };
+		2C527BC81D435B8300553045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C939A431D4354C1009CC408 /* AppDelegate.m */; };
+		2C527BC91D435B8300553045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C939A401D4354C1009CC408 /* main.m */; };
+		2C527BCB1D435B8300553045 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2C527BCE1D435B8300553045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C939A4B1D4354C1009CC408 /* Assets.xcassets */; };
+		2C527BCF1D435B8300553045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C939A481D4354C1009CC408 /* Main.storyboard */; };
+		2C527BD91D435FC800553045 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C527BD81D435FC800553045 /* BaseViewController.m */; };
+		2C527BDD1D43600F00553045 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C527BDC1D43600F00553045 /* LoginViewController.m */; };
+		2C527BE11D43886200553045 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C527BDF1D43886200553045 /* logo.png */; };
+		2C527BE21D43886200553045 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C527BE01D43886200553045 /* splash.jpg */; };
+		2C527BE41D43A29E00553045 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C527BE31D43A29E00553045 /* splash.png */; };
+		2C527BEA1D43A62700553045 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C527BE71D43A62700553045 /* Common.m */; };
+		2C527BEB1D43A62700553045 /* KeyboardNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C527BE91D43A62700553045 /* KeyboardNotifier.m */; };
+		2C939A411D4354C1009CC408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C939A401D4354C1009CC408 /* main.m */; };
+		2C939A441D4354C1009CC408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C939A431D4354C1009CC408 /* AppDelegate.m */; };
+		2C939A4A1D4354C1009CC408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C939A481D4354C1009CC408 /* Main.storyboard */; };
+		2C939A4C1D4354C1009CC408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C939A4B1D4354C1009CC408 /* Assets.xcassets */; };
+		2C939A5A1D4354C1009CC408 /* LinagasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C939A591D4354C1009CC408 /* LinagasTests.m */; };
+		2C939A651D4354C1009CC408 /* LinagasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C939A641D4354C1009CC408 /* LinagasUITests.m */; };
+		D015F7941D4F3E7D00CD878D /* Map_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7931D4F3E7D00CD878D /* Map_model.m */; };
+		D015F7951D4F3E7D00CD878D /* Map_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7931D4F3E7D00CD878D /* Map_model.m */; };
+		D015F79C1D4F413D00CD878D /* LastLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F79B1D4F413D00CD878D /* LastLocation.m */; };
+		D015F79D1D4F413D00CD878D /* LastLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F79B1D4F413D00CD878D /* LastLocation.m */; };
+		D015F7A01D4F415300CD878D /* Provider.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F79F1D4F415300CD878D /* Provider.m */; };
+		D015F7A11D4F415300CD878D /* Provider.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F79F1D4F415300CD878D /* Provider.m */; };
+		D015F7A41D4F45E900CD878D /* ServiceArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7A31D4F45E900CD878D /* ServiceArea.m */; };
+		D015F7A51D4F45E900CD878D /* ServiceArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7A31D4F45E900CD878D /* ServiceArea.m */; };
+		D015F7A81D4F486900CD878D /* RatingSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7A71D4F486900CD878D /* RatingSummary.m */; };
+		D015F7A91D4F486900CD878D /* RatingSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7A71D4F486900CD878D /* RatingSummary.m */; };
+		D015F7AC1D4F49C300CD878D /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7AB1D4F49C300CD878D /* Status.m */; };
+		D015F7AD1D4F49C300CD878D /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7AB1D4F49C300CD878D /* Status.m */; };
+		D015F7B01D4FA29600CD878D /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7AF1D4FA29600CD878D /* Address.m */; };
+		D015F7B11D4FA29600CD878D /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = D015F7AF1D4FA29600CD878D /* Address.m */; };
+		D01842641D48D8E4008F8246 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01842631D48D8E4008F8246 /* BaseTabBarController.m */; };
+		D01842651D48D8E4008F8246 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01842631D48D8E4008F8246 /* BaseTabBarController.m */; };
+		D01842681D48DE85008F8246 /* GenericTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01842671D48DE85008F8246 /* GenericTextViewController.m */; };
+		D01842691D48DE85008F8246 /* GenericTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01842671D48DE85008F8246 /* GenericTextViewController.m */; };
+		D01842B21D48E987008F8246 /* TermsAndConditions.txt in Resources */ = {isa = PBXBuildFile; fileRef = D01842B11D48E987008F8246 /* TermsAndConditions.txt */; };
+		D01842B31D48E987008F8246 /* TermsAndConditions.txt in Resources */ = {isa = PBXBuildFile; fileRef = D01842B11D48E987008F8246 /* TermsAndConditions.txt */; };
+		D01842B51D48EA23008F8246 /* PrivacyPolicy.txt in Resources */ = {isa = PBXBuildFile; fileRef = D01842B41D48EA23008F8246 /* PrivacyPolicy.txt */; };
+		D01842B61D48EA23008F8246 /* PrivacyPolicy.txt in Resources */ = {isa = PBXBuildFile; fileRef = D01842B41D48EA23008F8246 /* PrivacyPolicy.txt */; };
+		D0213F9B1D48FFB4005C3220 /* Profile_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D0213F9A1D48FFB4005C3220 /* Profile_model.m */; };
+		D0213F9C1D48FFB4005C3220 /* Profile_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D0213F9A1D48FFB4005C3220 /* Profile_model.m */; };
+		D021808D1D5220B100C8AC79 /* ErrorApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D021808C1D5220B100C8AC79 /* ErrorApiResponse.m */; };
+		D021808E1D5220B100C8AC79 /* ErrorApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D021808C1D5220B100C8AC79 /* ErrorApiResponse.m */; };
+		D03025521D5049F600887904 /* Orders_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025511D5049F600887904 /* Orders_model.m */; };
+		D03025531D5049F600887904 /* Orders_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025511D5049F600887904 /* Orders_model.m */; };
+		D03025561D504A9A00887904 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025551D504A9A00887904 /* Order.m */; };
+		D03025571D504A9A00887904 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025551D504A9A00887904 /* Order.m */; };
+		D030255A1D504DFD00887904 /* OrderStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025591D504DFD00887904 /* OrderStatus.m */; };
+		D030255B1D504DFD00887904 /* OrderStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025591D504DFD00887904 /* OrderStatus.m */; };
+		D030255E1D504FED00887904 /* PaymentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D030255D1D504FED00887904 /* PaymentResult.m */; };
+		D030255F1D504FED00887904 /* PaymentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D030255D1D504FED00887904 /* PaymentResult.m */; };
+		D03025621D504FFB00887904 /* CustomerReview.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025611D504FFB00887904 /* CustomerReview.m */; };
+		D03025631D504FFB00887904 /* CustomerReview.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025611D504FFB00887904 /* CustomerReview.m */; };
+		D03025661D509C1D00887904 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025651D509C1D00887904 /* OrderItem.m */; };
+		D03025671D509C1D00887904 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025651D509C1D00887904 /* OrderItem.m */; };
+		D030256A1D50F32600887904 /* Provider_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025691D50F32600887904 /* Provider_model.m */; };
+		D030256B1D50F32600887904 /* Provider_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D03025691D50F32600887904 /* Provider_model.m */; };
+		D05B61DF1D477DD5001720CD /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B61DE1D477DD5001720CD /* MenuViewController.m */; };
+		D05B61E01D477DD5001720CD /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B61DE1D477DD5001720CD /* MenuViewController.m */; };
+		D05B61E31D477E12001720CD /* MenuItems_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B61E21D477E12001720CD /* MenuItems_model.m */; };
+		D05B61E41D477E12001720CD /* MenuItems_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B61E21D477E12001720CD /* MenuItems_model.m */; };
+		D05B61E71D477E25001720CD /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B61E61D477E25001720CD /* MenuItem.m */; };
+		D05B61E81D477E25001720CD /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B61E61D477E25001720CD /* MenuItem.m */; };
+		D05B96721D51ACDE007DB1D7 /* LGMapCallout.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05B96711D51ACDE007DB1D7 /* LGMapCallout.xib */; };
+		D05B96731D51ACDE007DB1D7 /* LGMapCallout.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05B96711D51ACDE007DB1D7 /* LGMapCallout.xib */; };
+		D05B96761D51ADBF007DB1D7 /* LGMapCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B96751D51ADBF007DB1D7 /* LGMapCallout.m */; };
+		D05B96771D51ADBF007DB1D7 /* LGMapCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B96751D51ADBF007DB1D7 /* LGMapCallout.m */; };
+		D0922AF11D4A16AD0095FDDB /* ApiConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = D0922AF01D4A16AD0095FDDB /* ApiConnector.m */; };
+		D0922AF21D4A16AD0095FDDB /* ApiConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = D0922AF01D4A16AD0095FDDB /* ApiConnector.m */; };
+		D0A425F21D460DDF00AD5075 /* Login_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A425F11D460DDF00AD5075 /* Login_model.m */; };
+		D0A425F31D460DDF00AD5075 /* Login_model.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A425F11D460DDF00AD5075 /* Login_model.m */; };
+		D0A425F61D46344700AD5075 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A425F51D46344700AD5075 /* BaseObject.m */; };
+		D0A425F71D46344700AD5075 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A425F51D46344700AD5075 /* BaseObject.m */; };
+		D0A425FE1D46657500AD5075 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A425FD1D46657500AD5075 /* HomeViewController.m */; };
+		D0A425FF1D46657500AD5075 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A425FD1D46657500AD5075 /* HomeViewController.m */; };
+		D0F6373E1D47BD670013CEA4 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F6373D1D47BD670013CEA4 /* ProfileViewController.m */; };
+		D0F6373F1D47BD670013CEA4 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F6373D1D47BD670013CEA4 /* ProfileViewController.m */; };
+		D0F637421D47BD980013CEA4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F637411D47BD980013CEA4 /* AboutViewController.m */; };
+		D0F637431D47BD980013CEA4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F637411D47BD980013CEA4 /* AboutViewController.m */; };
+		D0F637461D47BDA90013CEA4 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F637451D47BDA90013CEA4 /* SettingsViewController.m */; };
+		D0F637471D47BDA90013CEA4 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F637451D47BDA90013CEA4 /* SettingsViewController.m */; };
+		D0F6374A1D47BEC40013CEA4 /* AboutDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F637491D47BEC40013CEA4 /* AboutDetailsViewController.m */; };
+		D0F6374B1D47BEC40013CEA4 /* AboutDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F637491D47BEC40013CEA4 /* AboutDetailsViewController.m */; };
+		FCABAFFABC4747CF4C3CAB6F /* libPods-Linagas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD96531C8E62E5D7941B1595 /* libPods-Linagas.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C939A561D4354C1009CC408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C939A341D4354C1009CC408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C939A3B1D4354C1009CC408;
+			remoteInfo = Linagas;
+		};
+		2C939A611D4354C1009CC408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C939A341D4354C1009CC408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C939A3B1D4354C1009CC408;
+			remoteInfo = Linagas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C39DD581D4C9D4700E036D9 /* Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Name.h; path = ApiObjectModel/Name.h; sourceTree = "<group>"; };
+		2C39DD591D4C9D4700E036D9 /* Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Name.m; path = ApiObjectModel/Name.m; sourceTree = "<group>"; };
+		2C39DD5D1D4CEF8700E036D9 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = ApiObjectModel/Contact.h; sourceTree = "<group>"; };
+		2C39DD5E1D4CEF8700E036D9 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = ApiObjectModel/Contact.m; sourceTree = "<group>"; };
+		2C39DD611D4CF40300E036D9 /* ApiModelObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ApiModelObjects.h; path = Utilities/ApiModelObjects.h; sourceTree = "<group>"; };
+		2C527BD51D435B8300553045 /* Linagas Distributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linagas Distributor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C527BD61D435B8300553045 /* Linagas copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Linagas copy-Info.plist"; path = "/Users/huxley/Documents/iOS Projects/LightPenCo/Linagas/Linagas/Linagas copy-Info.plist"; sourceTree = "<absolute>"; };
+		2C527BD71D435FC800553045 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Base/BaseViewController.h; sourceTree = "<group>"; };
+		2C527BD81D435FC800553045 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Base/BaseViewController.m; sourceTree = "<group>"; };
+		2C527BDB1D43600F00553045 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controllers/LoginViewController.h; sourceTree = "<group>"; };
+		2C527BDC1D43600F00553045 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controllers/LoginViewController.m; sourceTree = "<group>"; };
+		2C527BDF1D43886200553045 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2C527BE01D43886200553045 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		2C527BE31D43A29E00553045 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		2C527BE61D43A62700553045 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Utilities/Common.h; sourceTree = "<group>"; };
+		2C527BE71D43A62700553045 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Utilities/Common.m; sourceTree = "<group>"; };
+		2C527BE81D43A62700553045 /* KeyboardNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyboardNotifier.h; path = Utilities/KeyboardNotifier.h; sourceTree = "<group>"; };
+		2C527BE91D43A62700553045 /* KeyboardNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyboardNotifier.m; path = Utilities/KeyboardNotifier.m; sourceTree = "<group>"; };
+		2C527BEC1D43A67100553045 /* Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Definitions.h; path = Utilities/Definitions.h; sourceTree = "<group>"; };
+		2C527BED1D43A68E00553045 /* ApiDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ApiDefinitions.h; path = Utilities/ApiDefinitions.h; sourceTree = "<group>"; };
+		2C939A3C1D4354C1009CC408 /* Linagas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linagas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C939A401D4354C1009CC408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C939A421D4354C1009CC408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C939A431D4354C1009CC408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C939A4B1D4354C1009CC408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C939A501D4354C1009CC408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C939A551D4354C1009CC408 /* LinagasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinagasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C939A591D4354C1009CC408 /* LinagasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinagasTests.m; sourceTree = "<group>"; };
+		2C939A5B1D4354C1009CC408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C939A601D4354C1009CC408 /* LinagasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinagasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C939A641D4354C1009CC408 /* LinagasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinagasUITests.m; sourceTree = "<group>"; };
+		2C939A661D4354C1009CC408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C20CF91DA41761C974960F /* Pods-Linagas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linagas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Linagas/Pods-Linagas.release.xcconfig"; sourceTree = "<group>"; };
+		58A0922C74D19D1087D9ECFD /* Pods-Linagas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linagas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Linagas/Pods-Linagas.debug.xcconfig"; sourceTree = "<group>"; };
+		D015F7921D4F3E7D00CD878D /* Map_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Map_model.h; path = Model/Map_model.h; sourceTree = "<group>"; };
+		D015F7931D4F3E7D00CD878D /* Map_model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Map_model.m; path = Model/Map_model.m; sourceTree = "<group>"; };
+		D015F79A1D4F413D00CD878D /* LastLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LastLocation.h; path = ApiObjectModel/LastLocation.h; sourceTree = "<group>"; };
+		D015F79B1D4F413D00CD878D /* LastLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LastLocation.m; path = ApiObjectModel/LastLocation.m; sourceTree = "<group>"; };
+		D015F79E1D4F415300CD878D /* Provider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Provider.h; path = ApiObjectModel/Provider.h; sourceTree = "<group>"; };
+		D015F79F1D4F415300CD878D /* Provider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Provider.m; path = ApiObjectModel/Provider.m; sourceTree = "<group>"; };
+		D015F7A21D4F45E900CD878D /* ServiceArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceArea.h; path = ApiObjectModel/ServiceArea.h; sourceTree = "<group>"; };
+		D015F7A31D4F45E900CD878D /* ServiceArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceArea.m; path = ApiObjectModel/ServiceArea.m; sourceTree = "<group>"; };
+		D015F7A61D4F486900CD878D /* RatingSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RatingSummary.h; path = ApiObjectModel/RatingSummary.h; sourceTree = "<group>"; };
+		D015F7A71D4F486900CD878D /* RatingSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RatingSummary.m; path = ApiObjectModel/RatingSummary.m; sourceTree = "<group>"; };
+		D015F7AA1D4F49C300CD878D /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Status.h; path = ApiObjectModel/Status.h; sourceTree = "<group>"; };
+		D015F7AB1D4F49C300CD878D /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Status.m; path = ApiObjectModel/Status.m; sourceTree = "<group>"; };
+		D015F7AE1D4FA29600CD878D /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Address.h; path = ApiObjectModel/Address.h; sourceTree = "<group>"; };
+		D015F7AF1D4FA29600CD878D /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = ApiObjectModel/Address.m; sourceTree = "<group>"; };
+		D01842621D48D8E4008F8246 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTabBarController.h; path = Controllers/BaseTabBarController.h; sourceTree = "<group>"; };
+		D01842631D48D8E4008F8246 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTabBarController.m; path = Controllers/BaseTabBarController.m; sourceTree = "<group>"; };
+		D01842661D48DE85008F8246 /* GenericTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericTextViewController.h; path = Controllers/GenericTextViewController.h; sourceTree = "<group>"; };
+		D01842671D48DE85008F8246 /* GenericTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericTextViewController.m; path = Controllers/GenericTextViewController.m; sourceTree = "<group>"; };
+		D01842B11D48E987008F8246 /* TermsAndConditions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TermsAndConditions.txt; path = Strings/TermsAndConditions.txt; sourceTree = "<group>"; };
+		D01842B41D48EA23008F8246 /* PrivacyPolicy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PrivacyPolicy.txt; path = Strings/PrivacyPolicy.txt; sourceTree = "<group>"; };
+		D0213F991D48FFB4005C3220 /* Profile_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Profile_model.h; path = Model/Profile_model.h; sourceTree = "<group>"; };
+		D0213F9A1D48FFB4005C3220 /* Profile_model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Profile_model.m; path = Model/Profile_model.m; sourceTree = "<group>"; };
+		D021808B1D5220B100C8AC79 /* ErrorApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorApiResponse.h; path = ApiObjectModel/ErrorApiResponse.h; sourceTree = "<group>"; };
+		D021808C1D5220B100C8AC79 /* ErrorApiResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrorApiResponse.m; path = ApiObjectModel/ErrorApiResponse.m; sourceTree = "<group>"; };
+		D03025501D5049F600887904 /* Orders_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Orders_model.h; path = Model/Orders_model.h; sourceTree = "<group>"; };
+		D03025511D5049F600887904 /* Orders_model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Orders_model.m; path = Model/Orders_model.m; sourceTree = "<group>"; };
+		D03025541D504A9A00887904 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = ApiObjectModel/Order.h; sourceTree = "<group>"; };
+		D03025551D504A9A00887904 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = ApiObjectModel/Order.m; sourceTree = "<group>"; };
+		D03025581D504DFD00887904 /* OrderStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderStatus.h; path = ApiObjectModel/OrderStatus.h; sourceTree = "<group>"; };
+		D03025591D504DFD00887904 /* OrderStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderStatus.m; path = ApiObjectModel/OrderStatus.m; sourceTree = "<group>"; };
+		D030255C1D504FED00887904 /* PaymentResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaymentResult.h; path = ApiObjectModel/PaymentResult.h; sourceTree = "<group>"; };
+		D030255D1D504FED00887904 /* PaymentResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaymentResult.m; path = ApiObjectModel/PaymentResult.m; sourceTree = "<group>"; };
+		D03025601D504FFB00887904 /* CustomerReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerReview.h; sourceTree = "<group>"; };
+		D03025611D504FFB00887904 /* CustomerReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerReview.m; sourceTree = "<group>"; };
+		D03025641D509C1D00887904 /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderItem.h; path = ApiObjectModel/OrderItem.h; sourceTree = "<group>"; };
+		D03025651D509C1D00887904 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderItem.m; path = ApiObjectModel/OrderItem.m; sourceTree = "<group>"; };
+		D03025681D50F32600887904 /* Provider_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Provider_model.h; path = Model/Provider_model.h; sourceTree = "<group>"; };
+		D03025691D50F32600887904 /* Provider_model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Provider_model.m; path = Model/Provider_model.m; sourceTree = "<group>"; };
+		D05B61DD1D477DD5001720CD /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Controllers/MenuViewController.h; sourceTree = "<group>"; };
+		D05B61DE1D477DD5001720CD /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Controllers/MenuViewController.m; sourceTree = "<group>"; };
+		D05B61E11D477E12001720CD /* MenuItems_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItems_model.h; path = Model/MenuItems_model.h; sourceTree = "<group>"; };
+		D05B61E21D477E12001720CD /* MenuItems_model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItems_model.m; path = Model/MenuItems_model.m; sourceTree = "<group>"; };
+		D05B61E51D477E25001720CD /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = Model/MenuItem.h; sourceTree = "<group>"; };
+		D05B61E61D477E25001720CD /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItem.m; path = Model/MenuItem.m; sourceTree = "<group>"; };
+		D05B62041D47B199001720CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05B96711D51ACDE007DB1D7 /* LGMapCallout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LGMapCallout.xib; path = "Custom Xib/LGMapCallout.xib"; sourceTree = "<group>"; };
+		D05B96741D51ADBF007DB1D7 /* LGMapCallout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LGMapCallout.h; path = "Custom Xib/LGMapCallout.h"; sourceTree = "<group>"; };
+		D05B96751D51ADBF007DB1D7 /* LGMapCallout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LGMapCallout.m; path = "Custom Xib/LGMapCallout.m"; sourceTree = "<group>"; };
+		D0922AEF1D4A16AD0095FDDB /* ApiConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiConnector.h; path = Model/ApiConnector.h; sourceTree = "<group>"; };
+		D0922AF01D4A16AD0095FDDB /* ApiConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiConnector.m; path = Model/ApiConnector.m; sourceTree = "<group>"; };
+		D0A425F01D460DDF00AD5075 /* Login_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Login_model.h; path = Model/Login_model.h; sourceTree = "<group>"; };
+		D0A425F11D460DDF00AD5075 /* Login_model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Login_model.m; path = Model/Login_model.m; sourceTree = "<group>"; };
+		D0A425F41D46344700AD5075 /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseObject.h; path = Model/BaseObject.h; sourceTree = "<group>"; };
+		D0A425F51D46344700AD5075 /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseObject.m; path = Model/BaseObject.m; sourceTree = "<group>"; };
+		D0A425FC1D46657500AD5075 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controllers/HomeViewController.h; sourceTree = "<group>"; };
+		D0A425FD1D46657500AD5075 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controllers/HomeViewController.m; sourceTree = "<group>"; };
+		D0F6373C1D47BD670013CEA4 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = Controllers/ProfileViewController.h; sourceTree = "<group>"; };
+		D0F6373D1D47BD670013CEA4 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = Controllers/ProfileViewController.m; sourceTree = "<group>"; };
+		D0F637401D47BD980013CEA4 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = Controllers/AboutViewController.h; sourceTree = "<group>"; };
+		D0F637411D47BD980013CEA4 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = Controllers/AboutViewController.m; sourceTree = "<group>"; };
+		D0F637441D47BDA90013CEA4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = Controllers/SettingsViewController.h; sourceTree = "<group>"; };
+		D0F637451D47BDA90013CEA4 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = Controllers/SettingsViewController.m; sourceTree = "<group>"; };
+		D0F637481D47BEC40013CEA4 /* AboutDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutDetailsViewController.h; path = Controllers/AboutDetailsViewController.h; sourceTree = "<group>"; };
+		D0F637491D47BEC40013CEA4 /* AboutDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutDetailsViewController.m; path = Controllers/AboutDetailsViewController.m; sourceTree = "<group>"; };
+		DD96531C8E62E5D7941B1595 /* libPods-Linagas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Linagas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C527BCA1D435B8300553045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C527BCB1D435B8300553045 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A391D4354C1009CC408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCABAFFABC4747CF4C3CAB6F /* libPods-Linagas.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A521D4354C1009CC408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A5D1D4354C1009CC408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C39DD571D4C9D0C00E036D9 /* ApiObjectModel */ = {
+			isa = PBXGroup;
+			children = (
+				D015F7AE1D4FA29600CD878D /* Address.h */,
+				D015F7AF1D4FA29600CD878D /* Address.m */,
+				D021808B1D5220B100C8AC79 /* ErrorApiResponse.h */,
+				D021808C1D5220B100C8AC79 /* ErrorApiResponse.m */,
+				D03025541D504A9A00887904 /* Order.h */,
+				D03025551D504A9A00887904 /* Order.m */,
+				D03025641D509C1D00887904 /* OrderItem.h */,
+				D03025651D509C1D00887904 /* OrderItem.m */,
+				D03025581D504DFD00887904 /* OrderStatus.h */,
+				D03025591D504DFD00887904 /* OrderStatus.m */,
+				D030255C1D504FED00887904 /* PaymentResult.h */,
+				D030255D1D504FED00887904 /* PaymentResult.m */,
+				D03025601D504FFB00887904 /* CustomerReview.h */,
+				D03025611D504FFB00887904 /* CustomerReview.m */,
+				2C39DD5D1D4CEF8700E036D9 /* Contact.h */,
+				2C39DD5E1D4CEF8700E036D9 /* Contact.m */,
+				D015F79A1D4F413D00CD878D /* LastLocation.h */,
+				D015F79B1D4F413D00CD878D /* LastLocation.m */,
+				2C39DD581D4C9D4700E036D9 /* Name.h */,
+				2C39DD591D4C9D4700E036D9 /* Name.m */,
+				D015F79E1D4F415300CD878D /* Provider.h */,
+				D015F79F1D4F415300CD878D /* Provider.m */,
+				D015F7A61D4F486900CD878D /* RatingSummary.h */,
+				D015F7A71D4F486900CD878D /* RatingSummary.m */,
+				D015F7A21D4F45E900CD878D /* ServiceArea.h */,
+				D015F7A31D4F45E900CD878D /* ServiceArea.m */,
+				D015F7AA1D4F49C300CD878D /* Status.h */,
+				D015F7AB1D4F49C300CD878D /* Status.m */,
+			);
+			name = ApiObjectModel;
+			sourceTree = "<group>";
+		};
+		2C527BDA1D435FF800553045 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D01842621D48D8E4008F8246 /* BaseTabBarController.h */,
+				D01842631D48D8E4008F8246 /* BaseTabBarController.m */,
+				2C527BD71D435FC800553045 /* BaseViewController.h */,
+				2C527BD81D435FC800553045 /* BaseViewController.m */,
+				D0A425F41D46344700AD5075 /* BaseObject.h */,
+				D0A425F51D46344700AD5075 /* BaseObject.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2C527BDE1D43601400553045 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C527BDB1D43600F00553045 /* LoginViewController.h */,
+				2C527BDC1D43600F00553045 /* LoginViewController.m */,
+				D0A425FC1D46657500AD5075 /* HomeViewController.h */,
+				D0A425FD1D46657500AD5075 /* HomeViewController.m */,
+				D05B61DD1D477DD5001720CD /* MenuViewController.h */,
+				D05B61DE1D477DD5001720CD /* MenuViewController.m */,
+				D0F6373C1D47BD670013CEA4 /* ProfileViewController.h */,
+				D0F6373D1D47BD670013CEA4 /* ProfileViewController.m */,
+				D0F637401D47BD980013CEA4 /* AboutViewController.h */,
+				D0F637411D47BD980013CEA4 /* AboutViewController.m */,
+				D0F637481D47BEC40013CEA4 /* AboutDetailsViewController.h */,
+				D0F637491D47BEC40013CEA4 /* AboutDetailsViewController.m */,
+				D01842661D48DE85008F8246 /* GenericTextViewController.h */,
+				D01842671D48DE85008F8246 /* GenericTextViewController.m */,
+				D0F637441D47BDA90013CEA4 /* SettingsViewController.h */,
+				D0F637451D47BDA90013CEA4 /* SettingsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2C527BE51D43A61900553045 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2C527BEC1D43A67100553045 /* Definitions.h */,
+				2C527BED1D43A68E00553045 /* ApiDefinitions.h */,
+				2C39DD611D4CF40300E036D9 /* ApiModelObjects.h */,
+				2C527BE61D43A62700553045 /* Common.h */,
+				2C527BE71D43A62700553045 /* Common.m */,
+				2C527BE81D43A62700553045 /* KeyboardNotifier.h */,
+				2C527BE91D43A62700553045 /* KeyboardNotifier.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		2C527BEE1D45164400553045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0A425F01D460DDF00AD5075 /* Login_model.h */,
+				D0A425F11D460DDF00AD5075 /* Login_model.m */,
+				D0213F991D48FFB4005C3220 /* Profile_model.h */,
+				D0213F9A1D48FFB4005C3220 /* Profile_model.m */,
+				D05B61E11D477E12001720CD /* MenuItems_model.h */,
+				D05B61E21D477E12001720CD /* MenuItems_model.m */,
+				D03025501D5049F600887904 /* Orders_model.h */,
+				D03025511D5049F600887904 /* Orders_model.m */,
+				D03025681D50F32600887904 /* Provider_model.h */,
+				D03025691D50F32600887904 /* Provider_model.m */,
+				D05B61E51D477E25001720CD /* MenuItem.h */,
+				D05B61E61D477E25001720CD /* MenuItem.m */,
+				D015F7921D4F3E7D00CD878D /* Map_model.h */,
+				D015F7931D4F3E7D00CD878D /* Map_model.m */,
+				D0922AEF1D4A16AD0095FDDB /* ApiConnector.h */,
+				D0922AF01D4A16AD0095FDDB /* ApiConnector.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2C939A331D4354C1009CC408 = {
+			isa = PBXGroup;
+			children = (
+				2C939A3E1D4354C1009CC408 /* Linagas */,
+				2C939A581D4354C1009CC408 /* LinagasTests */,
+				2C939A631D4354C1009CC408 /* LinagasUITests */,
+				2C939A3D1D4354C1009CC408 /* Products */,
+				2C527BD61D435B8300553045 /* Linagas copy-Info.plist */,
+				B014740DECBA477975FEB246 /* Pods */,
+				69F133094981EB568DFC9B74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C939A3D1D4354C1009CC408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C939A3C1D4354C1009CC408 /* Linagas.app */,
+				2C939A551D4354C1009CC408 /* LinagasTests.xctest */,
+				2C939A601D4354C1009CC408 /* LinagasUITests.xctest */,
+				2C527BD51D435B8300553045 /* Linagas Distributor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C939A3E1D4354C1009CC408 /* Linagas */ = {
+			isa = PBXGroup;
+			children = (
+				2C939A421D4354C1009CC408 /* AppDelegate.h */,
+				2C939A431D4354C1009CC408 /* AppDelegate.m */,
+				2C527BDF1D43886200553045 /* logo.png */,
+				2C527BE01D43886200553045 /* splash.jpg */,
+				2C527BE31D43A29E00553045 /* splash.png */,
+				D05B96701D51ACA4007DB1D7 /* Custom Xib */,
+				2C527BE51D43A61900553045 /* Utilities */,
+				2C527BDA1D435FF800553045 /* Base */,
+				2C527BDE1D43601400553045 /* Controllers */,
+				2C527BEE1D45164400553045 /* Model */,
+				2C39DD571D4C9D0C00E036D9 /* ApiObjectModel */,
+				D0922AEE1D4A168F0095FDDB /* Locale */,
+				2C939A481D4354C1009CC408 /* Main.storyboard */,
+				2C939A4B1D4354C1009CC408 /* Assets.xcassets */,
+				2C939A501D4354C1009CC408 /* Info.plist */,
+				D05B61EC1D47AED9001720CD /* Localize */,
+				2C939A3F1D4354C1009CC408 /* Supporting Files */,
+			);
+			path = Linagas;
+			sourceTree = "<group>";
+		};
+		2C939A3F1D4354C1009CC408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C939A401D4354C1009CC408 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C939A581D4354C1009CC408 /* LinagasTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C939A591D4354C1009CC408 /* LinagasTests.m */,
+				2C939A5B1D4354C1009CC408 /* Info.plist */,
+			);
+			path = LinagasTests;
+			sourceTree = "<group>";
+		};
+		2C939A631D4354C1009CC408 /* LinagasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C939A641D4354C1009CC408 /* LinagasUITests.m */,
+				2C939A661D4354C1009CC408 /* Info.plist */,
+			);
+			path = LinagasUITests;
+			sourceTree = "<group>";
+		};
+		69F133094981EB568DFC9B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD96531C8E62E5D7941B1595 /* libPods-Linagas.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B014740DECBA477975FEB246 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58A0922C74D19D1087D9ECFD /* Pods-Linagas.debug.xcconfig */,
+				38C20CF91DA41761C974960F /* Pods-Linagas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D05B61EC1D47AED9001720CD /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Localize;
+			sourceTree = "<group>";
+		};
+		D05B96701D51ACA4007DB1D7 /* Custom Xib */ = {
+			isa = PBXGroup;
+			children = (
+				D05B96711D51ACDE007DB1D7 /* LGMapCallout.xib */,
+				D05B96741D51ADBF007DB1D7 /* LGMapCallout.h */,
+				D05B96751D51ADBF007DB1D7 /* LGMapCallout.m */,
+			);
+			name = "Custom Xib";
+			sourceTree = "<group>";
+		};
+		D0922AEE1D4A168F0095FDDB /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				D01842B11D48E987008F8246 /* TermsAndConditions.txt */,
+				D01842B41D48EA23008F8246 /* PrivacyPolicy.txt */,
+			);
+			name = Locale;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C527BC41D435B8300553045 /* Linagas Distributor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C527BD21D435B8300553045 /* Build configuration list for PBXNativeTarget "Linagas Distributor" */;
+			buildPhases = (
+				2C527BC61D435B8300553045 /* Sources */,
+				2C527BCA1D435B8300553045 /* Frameworks */,
+				2C527BCC1D435B8300553045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Linagas Distributor";
+			productName = Linagas;
+			productReference = 2C527BD51D435B8300553045 /* Linagas Distributor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C939A3B1D4354C1009CC408 /* Linagas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C939A691D4354C1009CC408 /* Build configuration list for PBXNativeTarget "Linagas" */;
+			buildPhases = (
+				D5CB7DD70D2152A0098F67EC /* [CP] Check Pods Manifest.lock */,
+				2C939A381D4354C1009CC408 /* Sources */,
+				2C939A391D4354C1009CC408 /* Frameworks */,
+				2C939A3A1D4354C1009CC408 /* Resources */,
+				40E7356C234D23B4BCD6FE3C /* [CP] Embed Pods Frameworks */,
+				CE8616D96D9A28E7B6DBB549 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Linagas;
+			productName = Linagas;
+			productReference = 2C939A3C1D4354C1009CC408 /* Linagas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C939A541D4354C1009CC408 /* LinagasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C939A6C1D4354C1009CC408 /* Build configuration list for PBXNativeTarget "LinagasTests" */;
+			buildPhases = (
+				2C939A511D4354C1009CC408 /* Sources */,
+				2C939A521D4354C1009CC408 /* Frameworks */,
+				2C939A531D4354C1009CC408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C939A571D4354C1009CC408 /* PBXTargetDependency */,
+			);
+			name = LinagasTests;
+			productName = LinagasTests;
+			productReference = 2C939A551D4354C1009CC408 /* LinagasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C939A5F1D4354C1009CC408 /* LinagasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C939A6F1D4354C1009CC408 /* Build configuration list for PBXNativeTarget "LinagasUITests" */;
+			buildPhases = (
+				2C939A5C1D4354C1009CC408 /* Sources */,
+				2C939A5D1D4354C1009CC408 /* Frameworks */,
+				2C939A5E1D4354C1009CC408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C939A621D4354C1009CC408 /* PBXTargetDependency */,
+			);
+			name = LinagasUITests;
+			productName = LinagasUITests;
+			productReference = 2C939A601D4354C1009CC408 /* LinagasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C939A341D4354C1009CC408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LightPenCo;
+				TargetAttributes = {
+					2C939A3B1D4354C1009CC408 = {
+						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					2C939A541D4354C1009CC408 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2C939A3B1D4354C1009CC408;
+					};
+					2C939A5F1D4354C1009CC408 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2C939A3B1D4354C1009CC408;
+					};
+				};
+			};
+			buildConfigurationList = 2C939A371D4354C1009CC408 /* Build configuration list for PBXProject "Linagas" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C939A331D4354C1009CC408;
+			productRefGroup = 2C939A3D1D4354C1009CC408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C939A3B1D4354C1009CC408 /* Linagas */,
+				2C527BC41D435B8300553045 /* Linagas Distributor */,
+				2C939A541D4354C1009CC408 /* LinagasTests */,
+				2C939A5F1D4354C1009CC408 /* LinagasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C527BCC1D435B8300553045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05B96731D51ACDE007DB1D7 /* LGMapCallout.xib in Resources */,
+				2C527BCE1D435B8300553045 /* Assets.xcassets in Resources */,
+				D01842B61D48EA23008F8246 /* PrivacyPolicy.txt in Resources */,
+				2C527BCF1D435B8300553045 /* Main.storyboard in Resources */,
+				D01842B31D48E987008F8246 /* TermsAndConditions.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A3A1D4354C1009CC408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C527BE11D43886200553045 /* logo.png in Resources */,
+				D01842B51D48EA23008F8246 /* PrivacyPolicy.txt in Resources */,
+				2C939A4C1D4354C1009CC408 /* Assets.xcassets in Resources */,
+				D01842B21D48E987008F8246 /* TermsAndConditions.txt in Resources */,
+				2C939A4A1D4354C1009CC408 /* Main.storyboard in Resources */,
+				2C527BE41D43A29E00553045 /* splash.png in Resources */,
+				D05B96721D51ACDE007DB1D7 /* LGMapCallout.xib in Resources */,
+				2C527BE21D43886200553045 /* splash.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A531D4354C1009CC408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A5E1D4354C1009CC408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40E7356C234D23B4BCD6FE3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Linagas/Pods-Linagas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8616D96D9A28E7B6DBB549 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Linagas/Pods-Linagas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CB7DD70D2152A0098F67EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C527BC61D435B8300553045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05B61E41D477E12001720CD /* MenuItems_model.m in Sources */,
+				D0F6373F1D47BD670013CEA4 /* ProfileViewController.m in Sources */,
+				D05B61E81D477E25001720CD /* MenuItem.m in Sources */,
+				D015F7B11D4FA29600CD878D /* Address.m in Sources */,
+				D05B96771D51ADBF007DB1D7 /* LGMapCallout.m in Sources */,
+				D015F7A11D4F415300CD878D /* Provider.m in Sources */,
+				D03025631D504FFB00887904 /* CustomerReview.m in Sources */,
+				D030256B1D50F32600887904 /* Provider_model.m in Sources */,
+				D01842691D48DE85008F8246 /* GenericTextViewController.m in Sources */,
+				D015F79D1D4F413D00CD878D /* LastLocation.m in Sources */,
+				D015F7A91D4F486900CD878D /* RatingSummary.m in Sources */,
+				D015F7AD1D4F49C300CD878D /* Status.m in Sources */,
+				D0F6374B1D47BEC40013CEA4 /* AboutDetailsViewController.m in Sources */,
+				D0A425F31D460DDF00AD5075 /* Login_model.m in Sources */,
+				D030255F1D504FED00887904 /* PaymentResult.m in Sources */,
+				D05B61E01D477DD5001720CD /* MenuViewController.m in Sources */,
+				D0A425F71D46344700AD5075 /* BaseObject.m in Sources */,
+				2C39DD5B1D4C9D4700E036D9 /* Name.m in Sources */,
+				D021808E1D5220B100C8AC79 /* ErrorApiResponse.m in Sources */,
+				D03025531D5049F600887904 /* Orders_model.m in Sources */,
+				D0213F9C1D48FFB4005C3220 /* Profile_model.m in Sources */,
+				D03025671D509C1D00887904 /* OrderItem.m in Sources */,
+				D030255B1D504DFD00887904 /* OrderStatus.m in Sources */,
+				D015F7951D4F3E7D00CD878D /* Map_model.m in Sources */,
+				D0F637431D47BD980013CEA4 /* AboutViewController.m in Sources */,
+				D03025571D504A9A00887904 /* Order.m in Sources */,
+				2C527BC81D435B8300553045 /* AppDelegate.m in Sources */,
+				D01842651D48D8E4008F8246 /* BaseTabBarController.m in Sources */,
+				D0F637471D47BDA90013CEA4 /* SettingsViewController.m in Sources */,
+				D0A425FF1D46657500AD5075 /* HomeViewController.m in Sources */,
+				D0922AF21D4A16AD0095FDDB /* ApiConnector.m in Sources */,
+				2C39DD601D4CEF8700E036D9 /* Contact.m in Sources */,
+				D015F7A51D4F45E900CD878D /* ServiceArea.m in Sources */,
+				2C527BC91D435B8300553045 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A381D4354C1009CC408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D015F7A41D4F45E900CD878D /* ServiceArea.m in Sources */,
+				D015F7A01D4F415300CD878D /* Provider.m in Sources */,
+				D030256A1D50F32600887904 /* Provider_model.m in Sources */,
+				D03025521D5049F600887904 /* Orders_model.m in Sources */,
+				2C527BDD1D43600F00553045 /* LoginViewController.m in Sources */,
+				D0A425F21D460DDF00AD5075 /* Login_model.m in Sources */,
+				2C939A441D4354C1009CC408 /* AppDelegate.m in Sources */,
+				D015F7B01D4FA29600CD878D /* Address.m in Sources */,
+				D0213F9B1D48FFB4005C3220 /* Profile_model.m in Sources */,
+				D030255A1D504DFD00887904 /* OrderStatus.m in Sources */,
+				D015F7941D4F3E7D00CD878D /* Map_model.m in Sources */,
+				D0F637461D47BDA90013CEA4 /* SettingsViewController.m in Sources */,
+				D03025621D504FFB00887904 /* CustomerReview.m in Sources */,
+				D0922AF11D4A16AD0095FDDB /* ApiConnector.m in Sources */,
+				D01842641D48D8E4008F8246 /* BaseTabBarController.m in Sources */,
+				D05B61E31D477E12001720CD /* MenuItems_model.m in Sources */,
+				D0F6373E1D47BD670013CEA4 /* ProfileViewController.m in Sources */,
+				D0A425FE1D46657500AD5075 /* HomeViewController.m in Sources */,
+				D030255E1D504FED00887904 /* PaymentResult.m in Sources */,
+				D0F637421D47BD980013CEA4 /* AboutViewController.m in Sources */,
+				2C527BEB1D43A62700553045 /* KeyboardNotifier.m in Sources */,
+				2C527BEA1D43A62700553045 /* Common.m in Sources */,
+				D021808D1D5220B100C8AC79 /* ErrorApiResponse.m in Sources */,
+				D03025561D504A9A00887904 /* Order.m in Sources */,
+				D0F6374A1D47BEC40013CEA4 /* AboutDetailsViewController.m in Sources */,
+				D015F79C1D4F413D00CD878D /* LastLocation.m in Sources */,
+				D05B96761D51ADBF007DB1D7 /* LGMapCallout.m in Sources */,
+				D03025661D509C1D00887904 /* OrderItem.m in Sources */,
+				D01842681D48DE85008F8246 /* GenericTextViewController.m in Sources */,
+				D05B61E71D477E25001720CD /* MenuItem.m in Sources */,
+				D015F7A81D4F486900CD878D /* RatingSummary.m in Sources */,
+				2C527BD91D435FC800553045 /* BaseViewController.m in Sources */,
+				2C939A411D4354C1009CC408 /* main.m in Sources */,
+				2C39DD5F1D4CEF8700E036D9 /* Contact.m in Sources */,
+				D0A425F61D46344700AD5075 /* BaseObject.m in Sources */,
+				2C39DD5A1D4C9D4700E036D9 /* Name.m in Sources */,
+				D05B61DF1D477DD5001720CD /* MenuViewController.m in Sources */,
+				D015F7AC1D4F49C300CD878D /* Status.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A511D4354C1009CC408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C939A5A1D4354C1009CC408 /* LinagasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C939A5C1D4354C1009CC408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C939A651D4354C1009CC408 /* LinagasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C939A571D4354C1009CC408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C939A3B1D4354C1009CC408 /* Linagas */;
+			targetProxy = 2C939A561D4354C1009CC408 /* PBXContainerItemProxy */;
+		};
+		2C939A621D4354C1009CC408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C939A3B1D4354C1009CC408 /* Linagas */;
+			targetProxy = 2C939A611D4354C1009CC408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C939A481D4354C1009CC408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05B62041D47B199001720CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C527BD31D435B8300553045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DISTRIBUTOR=1",
+				);
+				INFOPLIST_FILE = "Linagas copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linagas.Linagas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C527BD41D435B8300553045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DISTRIBUTOR=1",
+				);
+				INFOPLIST_FILE = "Linagas copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linagas.Linagas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C939A671D4354C1009CC408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C939A681D4354C1009CC408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C939A6A1D4354C1009CC408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A0922C74D19D1087D9ECFD /* Pods-Linagas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					test,
+				);
+				INFOPLIST_FILE = Linagas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linagas.Linagas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C939A6B1D4354C1009CC408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C20CF91DA41761C974960F /* Pods-Linagas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Linagas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linagas.Linagas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C939A6D1D4354C1009CC408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LinagasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linagas.LinagasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linagas.app/Linagas";
+			};
+			name = Debug;
+		};
+		2C939A6E1D4354C1009CC408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LinagasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linagas.LinagasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linagas.app/Linagas";
+			};
+			name = Release;
+		};
+		2C939A701D4354C1009CC408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LinagasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linagas.LinagasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Linagas;
+			};
+			name = Debug;
+		};
+		2C939A711D4354C1009CC408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LinagasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linagas.LinagasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Linagas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C527BD21D435B8300553045 /* Build configuration list for PBXNativeTarget "Linagas Distributor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C527BD31D435B8300553045 /* Debug */,
+				2C527BD41D435B8300553045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C939A371D4354C1009CC408 /* Build configuration list for PBXProject "Linagas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C939A671D4354C1009CC408 /* Debug */,
+				2C939A681D4354C1009CC408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C939A691D4354C1009CC408 /* Build configuration list for PBXNativeTarget "Linagas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C939A6A1D4354C1009CC408 /* Debug */,
+				2C939A6B1D4354C1009CC408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C939A6C1D4354C1009CC408 /* Build configuration list for PBXNativeTarget "LinagasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C939A6D1D4354C1009CC408 /* Debug */,
+				2C939A6E1D4354C1009CC408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C939A6F1D4354C1009CC408 /* Build configuration list for PBXNativeTarget "LinagasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C939A701D4354C1009CC408 /* Debug */,
+				2C939A711D4354C1009CC408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C939A341D4354C1009CC408 /* Project object */;
+}
